@@ -22,9 +22,32 @@ This repository contains Python scripts to analyze financial records of a compan
     * Changes in "Profit/Losses" and their average.
     * Greatest increase in profits (date and amount).
     * Greatest decrease in profits (date and amount).
+
+As an example, for current resources, it would have the following output:
+```Financial Analysis
+---------------------------
+Total Months: 86 
+Total: $22564198 
+Average Change: $-8311.11
+Greatest Increase in Profits: Aug-16 ($1862002)
+Greatest Decrease in Profits: Feb-14 ($-1825558)
+```
 * PyPoll: Helps a small town modernize its vote-counting process by:
     * Calculating the total number of votes cast.
     * Listing candidates who received votes.
     * Calculating the percentage of votes each candidate won.
     * Calculating the total number of votes each candidate won.
     * Determining the winner of the election based on the popular vote.
+      
+As an example, for current resources, it would have the following output:
+```Election Results
+-------------------------
+Total Votes: 369711 
+-------------------------
+Charles Casper Stockham: 23.049% (85213)
+Diana DeGette: 73.812% (272892)
+Raymon Anthony Doane: 3.139% (11606)
+-------------------------
+Winner: Diana DeGette 
+-------------------------
+```
